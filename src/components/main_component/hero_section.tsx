@@ -11,9 +11,9 @@ export default function HeroSection() {
   //  Words for Auto Typing Effect
   const words = [
     "Frontend Developer",
-    "Backend Developer",
     "Web Developer",
-    "Agentic AI",
+    "Python Developer",
+    "AI Enthusiast",
   ];
 
   

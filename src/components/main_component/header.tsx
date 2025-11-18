@@ -5,15 +5,13 @@ import React, { useState } from "react";
 import {
   Navbar,
   NavBody,
-  NavbarLogo,
   MobileNav,
   MobileNavToggle,
   MobileNavMenu,
-  MobileNavHeader,
 } from "@/components/ui/navBar";
 import { ModeToggle } from "../ui/toggle";
 import Logo from "../ui/logo";
-import { cn } from "@/lib/utils";
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

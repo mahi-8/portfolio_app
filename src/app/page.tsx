@@ -24,5 +24,4 @@ export default function Home() {
 }
 
 // Color Adjustment are remaining 
-// Change the color theme of Hero Section into Projects Section
 

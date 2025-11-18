@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 
 export function ContactCard() {

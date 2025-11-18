@@ -45,5 +45,5 @@ export const projects = [
 
 ];
 
-//  These projects will be uncommented when It will be created and deployed
+//  Projects will be added when It will be created and deployed
 
