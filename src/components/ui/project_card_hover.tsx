@@ -42,7 +42,8 @@ export const projects = [
 
 
 export default function ProjectHoverCard() {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  // let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     
@@ -100,3 +101,4 @@ export const CardTitle = ({ className, children }: { className?: string; childre
 export const CardDescription = ({ className, children }: { className?: string; children: React.ReactNode }) => {
   return <p className={cn("mt-4 text-zinc-400 tracking-wide leading-relaxed text-sm", className)}>{children}</p>;
 };
+

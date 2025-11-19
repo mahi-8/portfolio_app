@@ -3,9 +3,9 @@
 
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
-export default function SkillsHoverEffect({ skills }: { skills: { name: string; icon: JSX.Element; description: string }[] }) {
+export default function SkillsHoverEffect({ skills }: { skills: { name: string; icon: ReactNode; description: string }[] }) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (

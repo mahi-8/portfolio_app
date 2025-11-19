@@ -1,20 +1,13 @@
 // footer lopgo to move to top
 
-import { CalendarIcon } from "lucide-react"
-
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui/avatar"
-import { Button } from "@/components/ui/button"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card_ui"
 import { NavbarLogo } from "./navBar"
-import { link } from "fs"
+import { Button } from "./button"
+
 
 export function HoverCardFunc() {
   return (

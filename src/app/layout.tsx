@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme_provider"
-
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
-
 export const metadata: Metadata = {
   title: "Maheera Rehman",
   description: "Python & Agentic AI Developer",

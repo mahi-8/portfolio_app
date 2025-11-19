@@ -51,11 +51,12 @@ export default function Header() {
 
           {/* Mobile Toggle Button */}
           <div className="flex md:hidden">
-            <MobileNavToggle
-              isOpen={isOpen}
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-white border border-pink-500 rounded-md p-2 hover:bg-pink-600/20 transition"
-            />
+            <div className="text-white border border-pink-500 rounded-md p-2 hover:bg-pink-600/20 transition">
+              <MobileNavToggle
+                isOpen={isOpen}
+                onClick={() => setIsOpen(!isOpen)}
+              />
+            </div>
           </div>
         </NavBody>
       </Navbar>
@@ -68,7 +69,6 @@ export default function Header() {
       >
         <MobileNavMenu
           isOpen={isOpen}
-          onClose={() => setIsOpen(false)}
           className="flex flex-col items-center justify-center text-center w-full"
         >
           {navLinks.map((item) => (

@@ -44,7 +44,7 @@ export const TypewriterEffect = ({
         }
       );
     }
-  }, [isInView]);
+  }, [isInView , animate]);
 
   const renderWords = () => {
     return (
