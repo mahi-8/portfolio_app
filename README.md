@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Personal Portfolio Website
 
 <div align="center">
@@ -307,3 +308,6 @@ Found a bug or have a suggestion? Please open an issue:
   <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
   
 </div> 
+=======
+## Hi Everyone
+>>>>>>> 90d688b1c6667196e107871e11831f35a3278be7
