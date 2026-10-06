@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 39f259bd5dc6c3bb121efd74965dad6bc6258f99
+
 # 🚀 Personal Portfolio Website
 
 <div align="center">
